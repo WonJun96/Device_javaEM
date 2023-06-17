@@ -1,0 +1,28 @@
+{
+  "_comment1" : "ip_주소, 포트번호, broker포트번호", 
+  
+    "IP_ADDRESS": "192.168.160.90", 
+	"PORT": "8080",
+	"BROKER_PORT" : "1883",
+	
+	
+	
+  "_comment2" : "사용자아이디, 사용자비밀번호",
+  
+	"USER_ID": "tenant@thingsboard.org",
+	"USER_PW": "tenant",
+	
+	
+	
+  "_comment3" : "장치이름, 장치프로파일ID, 장치텔레메트리",
+  
+	"DEVICEPREFIXNAME" : "EM",
+	"PROFILEID" : "5495ce30-04f0-11ee-ad19-cd1f480e2d7f",
+	"DEVICE_TELEMETRY_TOPIC" : "v1/devices/me/telemetry",
+	
+	
+	
+  "_comment4" : "생성할장치개수",	
+  
+	"DEVICE_CREATE_COUNT" : 10
+}
